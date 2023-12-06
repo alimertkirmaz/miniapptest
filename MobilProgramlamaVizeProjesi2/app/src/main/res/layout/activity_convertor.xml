@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Convertor">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONVERTOR"
+        android:textSize="45dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/enterTemp"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Celcius"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textSize="25dp"
+        android:ems="10"
+        android:textAlignment="center" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/cToK"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Kelvin"
+            android:textColor="@color/cardview_dark_background" />
+
+        <RadioButton
+            android:id="@+id/cToF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fahrenheit"
+            android:textColor="@color/cardview_dark_background" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Result:"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/enterTemp1"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:hint="Mega Byte"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textSize="25dp"
+        android:ems="10"
+        android:textAlignment="center" />
+
+    <RadioGroup
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/mbToKiloByte"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:text="Kilo Byte"
+            android:textColor="@color/cardview_dark_background" />
+
+        <RadioButton
+            android:id="@+id/mbToByte"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="Byte"
+            android:textColor="@color/cardview_dark_background" />
+
+        <RadioButton
+            android:id="@+id/mbToKibiByte"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:text="Kibi Byte"
+            android:textColor="@color/cardview_dark_background" />
+
+        <RadioButton
+            android:id="@+id/mbToBit"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:text="Bit"
+            android:textColor="@color/cardview_dark_background" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Result:"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/enterTemp2"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:hint="Decimal"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textSize="25dp"
+        android:ems="10"
+        android:textAlignment="center" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/dToBinary"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Binary"
+            android:textColor="@color/cardview_dark_background" />
+
+        <RadioButton
+            android:id="@+id/dToOctal"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Octal"
+            android:textColor="@color/cardview_dark_background" />
+
+        <RadioButton
+            android:id="@+id/dToHexadecimal"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:text="Hexadecimal"
+            android:textColor="@color/cardview_dark_background" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/result4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Result:"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
